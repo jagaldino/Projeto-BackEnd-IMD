@@ -41,6 +41,7 @@
   <p>Para iniciar o servidor, execute o seguinte comando:</p>
   <pre><code>npm start</code></pre>
   <p>A API estará disponível em <code>http://localhost:8080</code></p>
+  <p>Caso queria ver a documentação, só acessar <code>http://localhost:8080/api-docs/</code></p>
 
   <h2>Endpoints</h2>
   <p>Os seguintes endpoints estão disponíveis:</p>
