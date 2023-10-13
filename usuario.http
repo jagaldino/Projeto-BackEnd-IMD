@@ -1,0 +1,37 @@
+GET http://localhost:8080/
+
+###
+
+GET http://localhost:8080/api/usuarios/
+
+### 
+
+POST http://localhost:8080/api/usuarios
+Content-type: application/json
+
+{
+    "email": "moppa@hotmail.com",
+    "senha": "senha"
+}
+
+###
+
+PUT http://localhost:8080/api/usuarios/
+Content-type: application/json
+
+{
+    "email": "",
+    "senha": ""
+}
+###
+
+POST http://localhost:8080/api/usuarios/login
+Content-Type: application/json
+
+{
+    "email": "moppa@hotmail.com",
+    "senha": "senha"
+}
+
+###
+DELETE http://localhost:8080/api/usuarios/

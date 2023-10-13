@@ -1,0 +1,36 @@
+GET http://localhost:8080/api/posts
+
+###
+
+POST http://localhost:8080/api/posts
+Content-Type: application/json
+
+{
+    "titulo": "Testando os bgl de breackpoint",
+    "texto": "o naruto pode ser duro ás vezes"
+}
+
+###
+
+PUT http://localhost:8080/api/posts/
+Content-Type: application/json
+
+{
+    "titulo": "",
+    "texto": ""
+}
+###
+
+POST http://localhost:8080/api/posts
+Content-Type: application/json
+Authorization: Bearer 'Token'
+
+{
+    "titulo": "Programando em JS Backend",
+    "texto": "Título do texto...",
+    "userId": 3
+}
+
+
+###
+DELETE http://localhost:8080/api/posts/
